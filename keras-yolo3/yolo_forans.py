@@ -22,7 +22,7 @@ import xml.etree.ElementTree as ET
 
 class YOLO(object):
     _defaults = {
-        "model_path": 'model_data/ep048-loss11.364-val_loss12.513.h5',
+        "model_path": 'model_data/ep024+072-coord-1226.h5',
         "anchors_path": 'model_data/yolo_anchors.txt',
         "classes_path": 'model_data/voc_classes.txt',
         "score" : 0.3,
